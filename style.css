@@ -72,11 +72,13 @@ to { opacity: 1; transform: translateY(0); }
   position: absolute;
   top: 75%;
   left: 10%;
+   z-index: 3;
 }
 .hero-svg-2{
   position: absolute;
   top: 65%;
   left: 12%;
+   z-index: 3;
 }
 
 
@@ -241,7 +243,7 @@ width: 1px;
 
 }
 .container-black{
-
+position: relative;
   width: 100%;
   max-width: 400px;
   min-width: 200px;
@@ -1879,3 +1881,4 @@ margin-right: 10px;
 }
 
 }
+

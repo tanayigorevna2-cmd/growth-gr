@@ -267,7 +267,25 @@ height:clamp( 160px, 13.64vw, 262px) ;
    border: 1px solid #fff; 
 }
 
-
+.coll-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 8px rgba(72, 145, 255, 0.5);
+}
+@media (max-width: 900px){
+   .hero-svg-1{
+    width: 40%;
+  
+  top: 74%;
+  left: 42%;
+}
+.hero-svg-2{
+  width: 35%;
+  
+  top: 67.5%;
+  left: 42%;
+}
+  
+}
 
 
 @media (max-width: 768px) {
@@ -480,13 +498,7 @@ top:  60%;
   transform: scale(1.2);
   box-shadow: 0 0 20px 8px rgba(72, 145, 255, 0.5);
 }
-@media (max-width: 900px){
-   .line-1,
-.line-2 {
-  
-  height:135px; 
 
-}
 @media (max-width: 768px) {
   .container-black {
     width: 100%; 
@@ -1890,4 +1902,5 @@ margin-right: 10px;
 }
 
 }
+
 

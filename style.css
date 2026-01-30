@@ -303,14 +303,13 @@ height: 12px;
 background: #131316;
 }
 .box-coll{
-    width: clamp(90px,  9.89vw, 190px);
+    width: clamp(100px,  9.89vw, 190px);
     height:clamp(
-     90px,   9.89vw, 190px); 
+     100px,   9.89vw, 190px); 
     padding: 8px;
     background: #daf4fe;
     border-radius: 16px;
-    text-align: center;
-    color: #131316;
+   
 }
   
   
@@ -1931,6 +1930,7 @@ margin-right: 10px;
 }
 
 }
+
 
 
 

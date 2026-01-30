@@ -284,6 +284,35 @@ height:clamp( 160px, 13.64vw, 262px) ;
   top: 67.5%;
   left: 42%;
 }
+  .coll-title{
+      
+       font-size: 8px;}
+
+.coll-text {
+   font-size:  5px;
+  }
+.coll-bold {
+    
+    font-size: 6px;
+   }
+   .coll-btn {
+  border-radius: 3px;
+font-size: 6px;
+width: 50px;
+height: 12px;
+background: #131316;
+}
+.box-coll{
+    width: clamp(90px,  9.89vw, 190px);
+    height:clamp(
+     90px,   9.89vw, 190px); 
+    padding: 8px;
+    background: #daf4fe;
+    border-radius: 16px;
+    text-align: center;
+    color: #131316;
+}
+  
   
 }
 
@@ -1902,5 +1931,6 @@ margin-right: 10px;
 }
 
 }
+
 
 
